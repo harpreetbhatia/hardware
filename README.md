@@ -1,8 +1,8 @@
 This is a (partial) snapshot of our Verilog verification and extraction development, for the ITP'18 paper Proof-producing extraction to Verilog in HOL.
 
-The development requires HOL4 (https://hol-theorem-prover.org) and L3 (http://www.cl.cam.ac.uk/~acjf3/l3). Make sure to install HOL4 from Git. Try `master` first, and it that does not work try commit `8d28b9b85d195e3015b0a050b177021a86263f39`.
+The development requires [HOL4](https://hol-theorem-prover.org) and [L3](http://www.cl.cam.ac.uk/~acjf3/l3). Make sure to install HOL4 from Git. Try `master` first, and it that does not work try commit `8d28b9b85d195e3015b0a050b177021a86263f39`.
 
-After L3 has been installed, the following commands in the L3 REPL will produce the HOL code for the processor case study:
+After L3 has been installed, the following commands in the L3 REPL (named `l3`, located in the `bin` directory in your L3 directory) will produce the HOL code for the processor case study:
 
 ```
 HolExport.spec ("tiny.spec", "tiny");
